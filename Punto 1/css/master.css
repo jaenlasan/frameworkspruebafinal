@@ -1,0 +1,61 @@
+/* NOTE: Body */
+body{
+  background-color: rgb(230, 138, 30);
+}
+nav, .contenido{
+  background-color: white;
+}
+/* NOTE: NAVBAR */
+.prueba{
+  border: dashed grey 1px;
+}
+.logo{
+  height: 7rem;
+}
+.redes-img{
+  width: 2rem;
+}
+nav ul li a:hover{
+  background-color: rgb(255, 191, 106) ;
+  color: black ;
+}
+nav ul li a.active{
+  background-color: rgb(255, 191, 106) ;
+  color: black !important;
+}
+nav ul li a{
+  color: white ;
+  background-color: rgb(162, 31, 31);
+  padding: 0px 0px;
+}
+.img-comentarios{
+  height: 2.4rem;/* 50/16 */
+}
+.bordeado-derecha{
+  border-bottom-right-radius: 0.25rem;
+}
+.bordeado-izquierda{
+  border-bottom-left-radius: 0.25rem;
+}
+nav{
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+/* tablets en vertical(.col-md- )*/
+/*------------------------------------------------------------------------- */
+@media  (max-width: 992px) {
+  .container{
+    max-width: 100% !important;
+    padding: 0px 0px;
+  }
+  nav{
+    border-bottom-right-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+  }
+  .bordeado-derecha{
+    border-bottom-right-radius: 0rem;
+  }
+  .bordeado-izquierda{
+    border-bottom-left-radius: 0rem;
+  }
+ }
