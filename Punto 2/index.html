@@ -1,0 +1,136 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My food blog</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row ">
+        <div class="contenedor large-12 columns">
+          <!-- NOTE: Títulos -->
+          <div class="row titulos">
+            <div class="large-4 medium-5 hide-for-small-only columns titulo-izquierdo">
+              <h2>Buon Apetit</h2>
+              <h5 class="text-right slogan">Aqui todos comemos</h5>
+            </div>
+            <div class="large-8 medium-7 columns align-self-middle text-center">
+              <h2>Mi Blog de comida</h2>
+            </div>
+          </div>
+          <!-- NOTE: Contenido -->
+          <div class="row">
+            <!-- NOTE: Panel izquierdo -->
+            <div class="large-4 medium-5 hide-for-small-only columns panel-izquierdo">
+                <div class="fondo">
+                  <forms id="Busqueda">
+                    <div class="busqueda">
+                      <input type="search" class="search" name="buscar">
+                      <button type="button" name="button" class="searchButton"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    </div>
+                  </forms>
+                  <div class="button-group flex-container flex-dir-column opciones" >
+                    <a class="button">Inicio</a>
+                    <a class="button">Receta del dia</a>
+                    <a class="button">Contacto</a>
+                  </div>
+                  <div class="favoritos">
+                    <h3>Favoritos</h3>
+                    <div class="fotos-panel-izquierdo">
+                      <img src="img/img1.jpg" alt="receta-1">
+                      <img src="img/img2.jpg" alt="receta-2">
+                      <img src="img/img3.jpg" alt="receta-3">
+                      <img src="img/img3.jpg" alt="receta-4">
+                      <img src="img/img2.jpg" alt="receta-5">
+                      <img src="img/img1.jpg" alt="receta-6">
+                    </div>
+                  </div>
+                  <ul class="historial">
+                    <h4>Historial</h4>
+                    <li><a href="#">no se que escribir 1</a></li>
+                    <li><a href="#">no se que escribir 2</a></li>
+                    <li><a href="#">no se que escribir 3</a></li>
+                    <li><a href="#">no se que escribir 4 </a></li>
+                    <li><a href="#">no se que escribir 5</a></li>
+                  </ul>
+                </div>
+            </div>
+            <!-- NOTE: Panel Derecho -->
+            <div class="large-8 medium-7 columns panel-derecho">
+              <!-- NOTE: Notica 1 -->
+              <div class="fondo-noticias" id="seccion1">
+                <div id="noticia1">
+                  <h3>Sopa artesanal</h3>
+                  <p class="fecha-post">22 de diciembre 2017</p>
+                  <img src="img/img1.jpg" alt="">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  <div class="comentarios">
+                    <label>
+                      Escribir un comentario
+                      <textarea placeholder="Escribir aquí" rows="3"></textarea>
+                    </label>
+                    <a class="button primary enviar" href="#"><i class="fa fa-paper-plane" aria-hidden="true"></i><span>Enviar</span></a>
+                  </div>
+                  <div class="comentarios">
+                    <div class="historial-comentario">
+                      <img src="img/user.png" alt="" class="img-user-historial">
+                      <h6><strong>Andrea:</strong></h6>
+                      <span><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p></span>
+                    </div>
+                  </div>
+                  <div class="comentarios">
+                    <div class="historial-comentario">
+                      <img src="img/user.png" alt="" class="img-user-historial">
+                      <h6><strong>Andrea:</strong></h6>
+                      <span><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p></span>
+                    </div>
+                  </div>
+                  <div class="comentarios">
+                    <div class="historial-comentario">
+                      <img src="img/user.png" alt="" class="img-user-historial">
+                      <h6><strong>Andrea:</strong></h6>
+                      <span><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="fondo-noticias" id="seccion2">
+                <div id="noticia2">
+                  <h3>Pasta artesanal</h3>
+                  <p class="fecha-post">22 de diciembre 2017</p>
+                  <img src="img/img2.jpg" alt="">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed d in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  <div class="comentarios">
+                    <label>
+                      Escribir un comentario
+                      <textarea placeholder="Escribir aquí" rows="3"></textarea>
+                    </label>
+                    <a class="button primary enviar" href="#"><i class="fa fa-paper-plane" aria-hidden="true"></i><span>Enviar</span></a>
+                  </div>
+                  <div class="comentarios">
+                    <div class="historial-comentario">
+                      <img src="img/user.png" alt="" class="img-user-historial">
+                      <h6><strong>Andrea:</strong></h6>
+                      <span><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

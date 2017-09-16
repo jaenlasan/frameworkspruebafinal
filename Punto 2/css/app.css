@@ -1,0 +1,142 @@
+/* NOTE: Container */
+.contenedor{
+  background-color: rgba(99, 107, 159, 0.8);
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+div h2{
+  color: white;
+}
+body{
+  background-image: url("../img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* NOTE: Titulos */
+.titulos{
+  border-bottom: white 1px solid;
+}
+.titulo-izquierdo{
+  border-right: white 1px solid;
+}
+.slogan{
+  color: white;
+  font-style: italic;
+}
+/* NOTE: Panel izquierdo */
+
+.fondo{
+  background-color: rgba(219, 250, 255, 0.8);
+  padding: 01rem;
+  margin: 0.5rem;
+  border-radius: 0.4rem;
+}
+
+.busqueda {
+  display: flex;
+}
+
+.searchButton {
+  background: rgb(233, 44, 180);
+  height: 2.4375rem;
+  color: white;
+  width: 3rem;
+  border-radius: 0px !important;
+  border: none !important;
+  cursor: pointer;
+}
+.fondo .opciones a {
+  background-color: rgba(170, 190, 184, 0.13);
+  border-color: rgb(233, 44, 180);
+  color: rgb(233, 44, 180);
+}
+.fondo .opciones a:hover{
+  background-color: rgba(183, 174, 187, 0.64);
+}
+.favoritos div img{
+  width:31%;
+  height: 50%;
+  margin: 0.1rem;
+  border: solid white 0.05rem;
+  cursor: pointer;
+}
+.favoritos {
+  color: rgb(233, 44, 180);
+}
+
+.fotos-panel-izquierdo {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+.historial h4 {
+  margin-bottom: 0px;
+}
+.historial {
+  list-style: none;
+  margin-top: 1rem;
+  color: rgb(233, 44, 180);
+}
+.historial li a {
+  margin-left:  0.5rem;
+  color: rgb(171, 60, 240);
+  font-style: italic;
+}
+
+/* NOTE: panel derecho */
+.fondo-noticias {
+  padding: 1rem;
+  margin: 0.5rem 0rem !important;
+  background-color: rgb(245, 203, 247);
+  border-radius: 0.2rem;
+}
+.panel-derecho{
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.fecha-post {
+  color: purple;
+}
+p {
+  font-size: 0.8rem;
+}
+.comentarios{
+  border-top: 0.07rem solid grey;
+  padding-top: 0.7rem;
+  display: flex;
+  flex-flow: column;
+
+}
+.enviar {
+  color: white !important;
+  align-self: flex-end;
+}
+.enviar span{
+  margin-left: 0.5rem;
+}
+label textarea {
+  margin-bottom: 0.5rem;
+}
+.historial-comentario{
+  display: flex;
+  flex-flow: row;
+
+}
+.historial-comentario span{
+  margin-left: 0.7rem;
+}
+.img-user-historial {
+  width: 12%;
+  margin-right: 0.5rem;
+  align-self: flex-start;
+}
+@media (max-width: 639px) {
+  .container{
+      width: 95%;
+      margin: auto;
+  }
+}
